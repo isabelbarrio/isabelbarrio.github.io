@@ -50,22 +50,7 @@ body {
   color: black;
 }
 
-/* Column container */
-.row {  
-  display: flex;
-  flex-wrap: wrap;
-}
 
-/* Create two unequal columns that sits next to each other */
-/* Sidebar/left column */
-.side {
-  flex: 30%;
-  background-color: #f1f1f1;
-  text-align: center;
-  padding: 20px;
-}
-
-/* Main column */
 .main {   
   flex: 50%;
   background-color: white;
@@ -76,12 +61,19 @@ body {
   justify-content: center; /* add this */
 }
 
-/* Footer */
+
 .footer {
   padding: 20px;
   text-align: center;
   background: #ddd;
 }
+
+table, tr, td {
+  padding: 20px;
+  text-align: center;
+  height: 20px;
+}
+
 .btn {
   background-color: #ffb81c; 
   border: none;
@@ -101,7 +93,7 @@ body {
   color: white;
 }
 
-/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+/* Responsive layout - FIX THIS SO THE TABLE DOES NOT BREAK */
 @media screen and (max-width: 700px) {
   .row {   
     flex-direction: column;
@@ -121,7 +113,6 @@ body {
 
 <div class="header">
   <h1>Teaching</h1>
-  <p>hola estp es teaching dwsbjklewjk</p>
 </div>
 
 <div class="navbar">
@@ -131,27 +122,75 @@ body {
   <a href="aboutme.html">About Me</a>
 </div>
 
-<div class="row">
-  <div class="side">
-    <a class="btn" href="ResumeOctober 2023.pdf" target = "_blank">
-      My CV
-    </a>
-    <h3>Some Links</h3>
-    <a class="btn" href="https://scholar.google.com/citations?hl=en&user=iENALBoAAAAJ&view_op=list_works&gmla=AJ1KiT3XSKaFfEqhdwJ3fiDhIY7Ien0oRmGnLyix1BoRAAK2oHC_-DzF-6W3TRiHw9t_qD09XNdFxr-SMtizDkjY" target = "_blank">
-      Google Scholar
-    </a><br><br>
-    <a class="btn" href="https://orcid.org/0009-0003-0989-2121" target = "_blank">
-      ORCiD
-    </a><br><br>
-    <a class="btn" href="https://arxiv.org/search/math?searchtype=author&query=Sanchez%2C+I+B" target = "_blank">
-      arxiv
-    </a><br><br>
-
-  </div>
-  <div class="main">
-    <h2>I am a third year PhD student in the Department of Mathematics at the University of Pittsburgh. My research area is numerical analysis, and in particular numerical analysis of PDEs. I am interested in fluid dynamics with an emphasis on fluid-structure interaction.</h2>
-    
-  </div>
+<div class = "main">
+<table>
+  <tr>
+    <th>Year</th>
+    <th>Term</th>
+    <th>Type</th>
+    <th>Class</th>
+  </tr>
+  <tr>
+    <td>2023</td>
+    <td>Fall</td>
+    <td>Grading</td>
+    <td>Numerical Mathematical Analysis (MATH 1070, 29 students)</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td>Grading</td>
+    <td>Numerical Mathematical Analysis (MATH 1070, 11 students)</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td>Grading</td>
+    <td>Modeling in Applied Math 1 (MATH 1360, 20 students)</td>
+  </tr>
+  <tr>
+    <td>2022</td>
+    <td>Fall</td>
+    <td>Recitation</td>
+    <td>Business Calculus (MATH 0120, 25 students)</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td>Recitation</td>
+    <td>Calculus 2 (MATH 0220, 22 students)</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td>Recitation</td>
+    <td>Calculus 2 (MATH 0220, 18 students)</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Summer</td>
+    <td>Lecture</td>
+    <td>Business Calculus (MATH 0120, 15 students)</td>
+  </tr>
+  <tr>
+    <td>2021</td>
+    <td>Fall</td>
+    <td>Recitation</td>
+    <td>Calculus 1 (MATH 0220, 25 students)</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td>Recitation</td>
+    <td>Calculus 1 (MATH 0220, 22 students)</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td>Recitation</td>
+    <td>Calculus 2 (MATH 0230, 24 students)</td>
+  </tr>
+</table>
 </div>
 
 <div class="footer">
