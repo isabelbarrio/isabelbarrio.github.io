@@ -56,13 +56,15 @@ body {
   flex-wrap: wrap;
 }
 
-/* Create two unequal columns that sits next to each other */
-/* Sidebar/left column */
+/* Create two columns */
+/* Left column */
 .side {
   flex: 30%;
   background-color: #f1f1f1;
-  text-align: center;
   padding: 20px;
+  text-align: center;
+  align-items: center; 
+  justify-content: center;
 }
 
 /* Main column */
@@ -71,9 +73,8 @@ body {
   background-color: white;
   padding: 20px;
   text-align: center;
-  display: flex; /* add this */
-  align-items: center; /* add this */
-  justify-content: center; /* add this */
+  align-items: center; 
+  justify-content: center; 
 }
 
 /* Footer */
@@ -82,6 +83,7 @@ body {
   text-align: center;
   background: #ddd;
 }
+/* Style button */
 .btn {
   background-color: #ffb81c; 
   border: none;
@@ -97,6 +99,7 @@ body {
   font-size: 16px;
 }
 
+/* Style hovering over button */
 .btn:hover {
   color: white;
 }
@@ -126,31 +129,35 @@ body {
 
 <div class="navbar">
   <a href="index.html">Home</a>
-  <a href="research.html.html">Research</a>
+  <a href="research.html">Research</a>
   <a href="teaching.html">Teaching</a>
   <a href="aboutme.html">About Me</a>
 </div>
 
 <div class="row">
   <div class="side">
-    <a class="btn" href="ResumeOctober 2023.pdf" target = "_blank">
-      My CV
-    </a>
-    <h3>Some Links</h3>
-    <a class="btn" href="https://scholar.google.com/citations?hl=en&user=iENALBoAAAAJ&view_op=list_works&gmla=AJ1KiT3XSKaFfEqhdwJ3fiDhIY7Ien0oRmGnLyix1BoRAAK2oHC_-DzF-6W3TRiHw9t_qD09XNdFxr-SMtizDkjY" target = "_blank">
-      Google Scholar
-    </a><br><br>
-    <a class="btn" href="https://orcid.org/0009-0003-0989-2121" target = "_blank">
-      ORCiD
-    </a><br><br>
-    <a class="btn" href="https://arxiv.org/search/math?searchtype=author&query=Sanchez%2C+I+B" target = "_blank">
-      arxiv
-    </a><br><br>
+ <h2> My research area is numerical PDEs, with an interest in CFD and fluid-structure interaction.
+  I am currently working on a project on partitioned methods for two-domain problems.</h2>
 
   </div>
   <div class="main">
 
-    
+<h2>Projects</h2>
+
+I. Barrio Sanchez, A. S. Almgren, J. B. Bell, M.T. Henry de Frahan, W. Zhang, “A new Re-redistribution Scheme for Weighted State Redistribution with Adaptive Mesh Refinement”, 2023, Submitted to the Journal of Computational Physics. [<a href="https://arxiv.org/abs/2309.06372">arxiv</a>]<br><br>
+
+A. Naz, M. Lu, C. Broyles, I. Barrio Sanchez, “Competition of VEX Educational Robotics to Advance Girl’s Education (COVERAGE)”, June 2020, 2020 ASEE Virtual Annual Conference.[<a href="https://peer.asee.org/competition-of-vex-educational-robotics-to-advance-girls-education-coverage">Link</a>]<br><br>
+
+<h2>Presentations</h2>
+
+“A new Re-redistribution Scheme for Weighted State Redistribution with Adaptive Mesh Refinement.” AWM Student Seminar, November 10, 2023. [<a href="https://www.youtube.com/watch?v=b0EB_h12_Bs">Link</a>] <br><br>
+
+“A new Re-redistribution Scheme for Weighted State Redistribution with Adaptive Mesh Refinement.” Computing Sciences Summer Program Poster Session, August 10, 2023.<br><br>
+
+“Competition of VEX Educational Robotics to Advance Girl’s Education (COVERAGE).” 2020 ASEE Virtual Annual Conference, Computers in Education Division Technical Session 10: STEM Outreach, June 2020.<br><br>
+
+
+
   </div>
 </div>
 
