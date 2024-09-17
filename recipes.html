@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  padding: 20px;
+  text-align: center;
+  background: Brown;
+  color: white;
+}
+
+/* Increase the font size of the h1 element */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #2b2b2b;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two columns */
+/* Left column */
+.side {
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+  align-items: center; 
+  justify-content: center;
+}
+
+/* Main column */
+.main {   
+  flex: 50%;
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+  align-items: center; 
+  justify-content: center; 
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+/* Style button */
+.btn {
+  background-color: #ffb81c; 
+  border: none;
+  border-radius: 8px;
+  transition-duration: 0.4s;
+  color: black;
+  width: 250px;
+  cursor: pointer;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+/* Style hovering over button */
+.btn:hover {
+  color: white;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width:100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>My favorite recipes!</h1>
+  <p></p>
+</div>
+
+<div class="navbar">
+  <a href="index.html">My personal website</a>
+</div>
+
+<div class="row">
+  <div class="side">
+ <h2> Note: some of these will be in english and some in spanish, depending on where or who I got the recipe from. And some will use american measurement units, while others will use international measurement units. Google is always my biggest friend to translate both languages and units :). </h2>
+
+  </div>
+  <div class="main">
+
+<h2>Index of recipes</h2>
+
+<a href=arroz.html>Arroz blanco al estilo de mi madre </a><br><br>
+<a href=arrozleche.html>Arroz con leche de mi abuela Pilar y Carmen </a><br><br>
+<a href=blackcobbler.html>The twins' mawmaw's wild Blackberry cobbler </a><br><br>
+<a href=risotto.html>Classic risotto </a><br><br>
+<a href=cordero.html>Cordero asado </a><br><br>
+<a href=cremamelon.html>Crema de melón de mi madre </a><br><br>
+<a href=gallinapepi.html>Gallina en pepitoria de mi madre </a><br><br>
+<a href=croquetasjamon.html>Mis croquetas de jamón </a><br><br>
+<a href=ensaladatomate.html>Ensalada de tomate y mozzarella </a><br><br>
+<a href=filetesrusos.html>Filetes rusos de mi abuela Pilar </a><br><br>
+<a href=filetespollohtml>Filetes de pollo empanados de mi madre </a><br><br>
+<a href=guisoternera.html>Guiso de ternera de mi madre </a><br><br>
+<a href=kathy.html>Mi plato favorito de Kathy </a><br><br>
+<a href=lasagnamama.html>Lasagna de mi madre </a><br><br>
+<a href=lentejas.html>Lentejas de mi madre </a><br><br>
+<a href=mmchichken.html>Marry me chicken NYT style </a><br><br>
+<a href=ossobuco.html>Ossobuco de mi madre </a><br><br>
+<a href=carbonara.html>Pasta carbonara </a><br><br>
+<a href=papaschirlas.html>Patatas con chirlas 1080 </a><br><br>
+<a href=papasrioja.html>Patatas a la riojana de mi madre </a><br><br>
+<a href=polloreboz.html>Pollo rebozado de mi madre </a><br><br>
+<a href=pollohorno.html>Pollo al horno de mi madre </a><br><br>
+<a href=pisto.html>Pisto 1080 </a><br><br>
+<a href=cerdomiel.html>Solomillo de cerdo con miel 1080</a><br><br>
+<a href=tiramisu.html>My favorite Tiramisu </a><br><br>
+<a href=torrijas.html>Torrijas de mi abuela Pilar </a><br><br>
+<a href=vichysoisse.html>Vichysoisse de mi madre </a><br><br>
+
+
+
+  </div>
+</div>
+
+<div class="footer">
+
+</div>
+
+</body>
+</html>
