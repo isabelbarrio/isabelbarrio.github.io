@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  padding: 20px;
+  text-align: center;
+  background: Brown;
+  color: white;
+}
+
+/* Increase the font size of the h1 element */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #2b2b2b;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 30%;
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  flex: 50%;
+  background-color: white;
+  padding: 20px;
+  text-align: left;
+  display: block; /* add this */
+  align-items: center; /* add this */
+  justify-content: center; /* add this */
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+.btn {
+  background-color: #ffb81c; 
+  border: none;
+  border-radius: 8px;
+  transition-duration: 0.4s;
+  color: black;
+  width: 250px;
+  cursor: pointer;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.btn:hover {
+  color: white;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width:100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Herb Croutons</h1>
+</div>
+
+<div class="navbar">
+  <a href="../../index.html">My personal website</a>
+  <a href="../../recipes.html">Back to list of recipes</a>
+</div>
+
+<div class="row">
+  <div class="side">
+<b>Ingredients:</b><br><br>
+6 cups of bread cubes, use day-old bread.<br>
+5 tablespoons of olive oil.<br>
+1 small shallot.<br>
+3 cloves of garlic.<br>
+1 tablespoon of chopped parsley leaves.<br>
+1 tablespoon of chopped thyme leaves or 1 teaspoon dried.<br>
+1 teaspoon of chopped rosemary or 1 pinch dried.<br>
+2 tablespoons of grated parmesan cheese.<br>
+1/2 tablespoons of fine sea salt.<br>
+1/4 teaspoon of ground black pepper.<br><br><br>
+<img src = "croutons2.jpg" style="height:200px;"><br><br>
+<img src = "croutons7.jpg" style="height:200px;"><br><br>
+
+<b>Instruments:</b><br><br>
+Toaster.<br>
+
+  </div>
+  <div class="main">
+<ul style="list-style-type:square">
+<li>Make the bread cubes. If your bread is not hard enough, toast it. A normal toaster will do but for me it worked best in the toaster oven. Mince the garlic, shallots, and chop the thyme, rosemary, and parsley. Grate the parmesan cheese.</li><br>
+<img src = "croutons1.jpg" style="height:200px;"><br><br>
+<li>Preheat oven to 350 degrees Fahrenheit.</li> <br><br>
+<li>Mix together the olive oil, shallot, garlic, thyme, parmesan, parsley, rosemary, and black pepper in a bowl.</li> <br><br>
+<img src = "croutons3.jpg" style="height:200px;"><br>
+<img src = "croutons4.jpg" style="height:200px;"><br><br>
+<li>Toss in the bread cubes and mix them well until it is a uniform mixture.</li><br>
+<li>Put it all in an oven pan. Season evenly with the salt.</li><br>
+<img src = "croutons5.jpg" style="height:200px;"><br><br>
+<li>Bake for 8min. Remove from oven and stir around. Rotate the pan and bake for 4min. Stir around, rotate pan, and bake for 2min. Let the pan cool to room temperature, the croutons will crisp up as they cool. </li><br>
+<img src = "croutons6.jpg" style="height:200px;"><br><br>
+</ul>
+  </div>
+
+
+</div>
+
+<div class="footer">
+  
+</div>
+
+</body>
+</html>

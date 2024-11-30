@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  padding: 20px;
+  text-align: center;
+  background: Brown;
+  color: white;
+}
+
+/* Increase the font size of the h1 element */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #2b2b2b;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 30%;
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  flex: 50%;
+  background-color: white;
+  padding: 20px;
+  text-align: left;
+  display: block; /* add this */
+  align-items: center; /* add this */
+  justify-content: center; /* add this */
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+.btn {
+  background-color: #ffb81c; 
+  border: none;
+  border-radius: 8px;
+  transition-duration: 0.4s;
+  color: black;
+  width: 250px;
+  cursor: pointer;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.btn:hover {
+  color: white;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width:100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Turkey gravy</h1>
+</div>
+
+<div class="navbar">
+  <a href="../../index.html">My personal website</a>
+  <a href="../../recipes.html">Back to list of recipes</a>
+</div>
+
+<div class="row">
+  <div class="side">
+<b>Ingredients:</b><br><br>
+Turkey offal (heart, liver, and kidneys) and neck.<br>
+4 cups of chicken stock.<br>
+1 onion.<br>
+4 sprigs of fresh thyme.<br>
+1 bay leaf.<br>
+3 cups of broth from the roasting pan.<br>
+1/2 cup of turkey fat from the roasting pan.<br>
+10 tablespoons of all-purpose flour.<br>
+Black pepper and salt.<br><br><br>
+
+<img src = "gravy12.jpg" style="height:200px;"><br><br>
+
+<b>Instruments:</b><br><br>
+Fat separator or turkey baster.<br>
+Whisk.<br>
+
+  </div>
+  <div class="main">
+<ul style="list-style-type:square">
+<b>Before the turkey is done, we can make the broth:</b><br>
+<li>Chop the onion. Add the offal, neck, onion, thyme, and bay leaf into a saucepan with the chicken stock. Bring to a simmer, and then cover and simmer for 1h. </li><br>
+<img src = "gravy13.jpg" style="height:200px;"><br><br>
+<li>Remove the offal and neck, and the thyme and bay leaf. We can save the offal and neck and chop them up and add them at the very end to the gravy, but I did not do that. Drain the broth to remove the onion chunks.</li> <br>
+<img src = "gravy14.jpg" style="height:200px;"><br>
+<img src = "gravy15.jpg" style="height:200px;"><br>
+<img src = "gravy6.jpg" style="height:200px;"><br><br>
+<b>After the turkey is done:</b><br>
+<li>Strain the pan dripping from the turkey to remove the vegetables.</li><br>
+<img src = "gravy2.jpg" style="height:200px;"><br><br>
+<li>Use a fat separator to separate the fat from the broth of the drippings. If you don't have a separator, use a turkey baster. I didn't have any of those, so I just let it sit in a bowl, it helps if the bowl is clear. The fat will be on top, so I used a spoon to put it on a different container.</li><br>
+<img src = "gravy5.jpg" style="height:200px;"><br><br>
+<li>Add 1/2 cup of turkey fat to a small skilleton medium heat. Add the flour and stir with a whisk until a smooth paste is formed. Turn the heat to low and allow the paste to cook slowly to remove any grains from the flour, which should take 2 to 3mins.</li><br>
+<img src = "gravy4.jpg" style="height:200px;"><br><br>
+<li>Bring the onion broth to a simmer and pour in 3 cups of the drippings broth. Once simmering, add the paste and simmer for 10min until it is thicker. Stir occasionally.</li><br>
+<img src = "gravy8.jpg" style="height:200px;"><br>
+<img src = "gravy9.jpg" style="height:200px;"><br><br>
+<li>Taste for seasoning and add salt and pepper accordingly. I didn't have to add any.</li><br>
+<img src = "gravy10.jpg" style="height:200px;"><br><br>
+</ul>
+
+  </div>
+
+
+</div>
+
+<div class="footer">
+  
+</div>
+
+</body>
+</html>

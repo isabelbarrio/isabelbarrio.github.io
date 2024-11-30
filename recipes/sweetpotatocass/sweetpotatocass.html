@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  padding: 20px;
+  text-align: center;
+  background: Brown;
+  color: white;
+}
+
+/* Increase the font size of the h1 element */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #2b2b2b;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 30%;
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  flex: 50%;
+  background-color: white;
+  padding: 20px;
+  text-align: left;
+  display: block; /* add this */
+  align-items: center; /* add this */
+  justify-content: center; /* add this */
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+.btn {
+  background-color: #ffb81c; 
+  border: none;
+  border-radius: 8px;
+  transition-duration: 0.4s;
+  color: black;
+  width: 250px;
+  cursor: pointer;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.btn:hover {
+  color: white;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width:100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Sweet potato casserole</h1>
+</div>
+
+<div class="navbar">
+  <a href="../../index.html">My personal website</a>
+  <a href="../../recipes.html">Back to list of recipes</a>
+</div>
+
+<div class="row">
+  <div class="side">
+<b>Ingredients:</b><br><br>
+<b>For the sweet potatoes:</b><br>
+4 cups of sweet potatoes.<br>
+2 large eggs.<br>
+1/2 cup of light brown sugar.<br>
+1/2 cup of milk.<br>
+4 tablespoons of butter.<br>
+4 tablespoons of salt.<br>
+1/2 teaspoon of vanilla extract.<br><br>
+<img src = "sweetpot1.jpg" style="height:200px;"><br><br>
+<b>For the pecan topping:</b><br>
+1/2 cup of light brown sugar.<br>
+1/3 cup of all-purpose flour.<br>
+3 tablespoons of butter.<br>
+1/2 cup of chopped pecans.<br><br>
+<img src = "sweetpot7.jpg" style="height:200px;"><br><br><br>
+
+<b>Instruments:</b><br><br>
+Masher.<br>
+
+  </div>
+  <div class="main">
+<ul style="list-style-type:square">
+<li>Peel and dice the sweet potatoes. Beat the eggs. Soften the butter by putting it in the microwave for 15-20sec. If the pecans are not chopped, chop them.</li><br>
+<b>For the sweet potatoes:</b><br>
+<li>Put sweet potatoes in a saucepan and cover them with water. Cook on medium-high until they are tender and ready to mash. It should take about 10 to 15min.</li> <br><br>
+<img src = "sweetpot2.jpg" style="height:200px;"><br><br>
+<li>Drain the potatoes and put them in a bowl.</li><br>
+<img src = "sweetpot3.jpg" style="height:200px;"><br>
+<img src = "sweetpot4.jpg" style="height:200px;"><br><br>
+<li>Mash the sweet potatoes, then add the eggs until they are well combined. Then add the sugar, milk, butter, vanilla, and salt. Mix until it is smooth. </li><br>
+<img src = "sweetpot5.jpg" style="height:200px;"><br><br>
+<li>Transfer to a baking dish.</li><br>
+<img src = "sweetpot6.jpg" style="height:200px;"><br><br>
+<b>For the pecan topping:</b><br>
+<li>Soften the butter by putting it in the microvawe for 15sec.</li> <br><br>
+<li>In a bowl, mix the brown sugar and flour together. Add in the butter in small chunks and mix it in until the mixture is coarse and it looks like peas. Don't overmix. Then, stir in the pecans.</li> <br><br>
+<img src = "sweetpot8.jpg" style="height:200px;"><br><br>
+<b>Assembly:</b><br>
+<li>NOTE: I let both mixtures sit in the fridge until it was 1h from when it must be eaten. Then I assembled it and put it in the oven.</li> <br><br>
+<img src = "sweetpot9.jpg" style="height:200px;"><br><br>
+<li>Preheat the oven to 325 degrees Fahrenheit. Sprinkle the topping over the sweet potato mixture. Bake in the preheated oven until topping is lightly browned, which is approximately 30min.</li> <br><br>
+<img src = "sweetpot10.jpg" style="height:200px;"><br><br>
+<li>Let sit for 10min and enjoy!.</li> <br><br>
+</ul>
+  </div>
+
+
+</div>
+
+<div class="footer">
+  
+</div>
+
+</body>
+</html>
