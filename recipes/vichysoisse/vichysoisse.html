@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  padding: 20px;
+  text-align: center;
+  background: Brown;
+  color: white;
+}
+
+/* Increase the font size of the h1 element */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #2b2b2b;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 30%;
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  flex: 50%;
+  background-color: white;
+  padding: 20px;
+  text-align: left;
+  display: block; /* add this */
+  align-items: center; /* add this */
+  justify-content: center; /* add this */
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+.btn {
+  background-color: #ffb81c; 
+  border: none;
+  border-radius: 8px;
+  transition-duration: 0.4s;
+  color: black;
+  width: 250px;
+  cursor: pointer;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.btn:hover {
+  color: white;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width:100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Vichysoisse de mi madre</h1>
+</div>
+
+<div class="navbar">
+  <a href="../../index.html">My personal website</a>
+  <a href="../../recipes.html">Back to list of recipes</a>
+</div>
+
+<div class="row">
+  <div class="side">
+<b>Ingredientes:</b><br><br>
+4 puerros grandes.<br>
+1 cebolla de 150g.<br>
+2 cucharadas de mantequilla (unos 40g).<br>
+5 patatas medianas (1kg).<br>
+Agua con pastillas de caldo de pollo. Unos 4 vasos. <br>
+3 vasos de vino bien llenos de leche.<br>
+1/4l de nata líquida.<br>
+Sal.<br><br><br>
+
+<b>Ingredientes:</b><br><br>
+Batidora de mano.<br><br>
+
+  </div>
+  <div class="main">
+<ul style="list-style-type:square">
+<li>Le quitamos lo verde y la cabeza a los puerros.</li><br>
+<img src = "vichy1.jpg" style="height:200px;"><br>
+<img src = "vichy2.jpg" style="height:200px;"><br><br>
+<li>Picamos los puerros, las cebollas, y las patatas.</li><br>
+<li>A fuego bajo, derretimos la mantequilla.</li><br>
+<li>Sofreímos un poco la cebolla en la mantequilla y después echamos los puerros.</li><br>
+<li>Dejamos las verduras a fuego lento hasta que estén blanditas. Cuando estén blanditas ponemos las patatas.</li><br>
+<img src = "vichy3.jpg" style="height:200px;"><br><br>
+<li>Añadimos el agua con los cubitos de caldo, o directamente el caldo hecho.</li> <br><br>
+<li>Dejamos un buen rato a fuego lento hasta que las patatas se cocinen. Unos 40min. Las vamos removiendo y triturando con la cuchara.</li><br>
+<img src = "vichy4.jpg" style="height:200px;"><br><br>
+<li>Quitamos del fuego y dejamos enfriar. Después lo trituramos con una batidora de mano.</li> <br><br>
+<img src = "vichy5.jpg" style="height:200px;"><br><br>
+<li>Echamos la leche y la nata y mezclamos con una cuchara. NO con la batidora para que no se suba la nata.</li> <br><br>
+<img src = "vichy6.jpg" style="height:200px;"><br><br>
+</ul>
+  </div>
+
+
+</div>
+
+<div class="footer">
+  
+</div>
+
+</body>
+</html>
