@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  padding: 20px;
+  text-align: center;
+  background: Brown;
+  color: white;
+}
+
+/* Increase the font size of the h1 element */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #2b2b2b;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 30%;
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  flex: 50%;
+  background-color: white;
+  padding: 20px;
+  text-align: left;
+  display: block; /* add this */
+  align-items: center; /* add this */
+  justify-content: center; /* add this */
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+.btn {
+  background-color: #ffb81c; 
+  border: none;
+  border-radius: 8px;
+  transition-duration: 0.4s;
+  color: black;
+  width: 250px;
+  cursor: pointer;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.btn:hover {
+  color: white;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width:100%;
+  }
+}
+</style>
+</head>
+<body>
+
+
+<div class="header">
+  <h1>Solomillo de cerdo al roquefort</h1>
+</div>
+
+<div class="navbar">
+  <a href="../../index.html">My personal website</a>
+  <a href="../../recipes.html">Back to list of recipes</a>
+</div>
+
+<div class="row">
+  <div class="side">
+<b>Ingredients:</b><br><br>
+1 solomillo de cerdo.<br>
+100g de cebolla.<br>
+Aceite de oliva virgen extra.<br>
+1/2 vaso de vino blanco.<br>
+Queso roquefort al gusto (yo puse 100g porque era caro, pero cuanto más mejor) (Uno por persona).<br>
+200ml de nata para cocinar.<br>
+Pimienta.<br>
+Sal.<br><br><br>
+
+
+<b>Instrumentos:</b><br><br>
+Batidora de mano.<br>
+Sartén grande.<br><br><br>
+
+<a href="https://www.directoalpaladar.com/recetas-de-carnes-y-aves/receta-solomillo-cerdo-al-roquefort-clasico-que-nunca-falla">Receta original</a><br><br>
+
+  </div>
+  <div class="main">
+<ul style="list-style-type:square">
+<li>Cortamos el solomillo en medallones, picamos la cebolla y cortamos el queso. </li><br>
+<img src = "solroq1.jpg" style="height:200px;"><br>
+<img src = "solroq3.jpg" style="height:200px;"><br>
+<img src = "solroq4.jpg" style="height:200px;"><br>
+<img src = "solroq6.jpg" style="height:200px;"><br><br>
+<li>Salpimentamos los medallones. Calentamos un poco de aceite de oliva en una sartén y doramos los medallones a fuego fuerte. Los guardamos en el horno para que no se enfríen.</li> <br><br>
+<img src = "solroq13.jpg" style="height:200px;"><br>
+<img src = "solroq14.jpg" style="height:200px;"><br>
+<img src = "solroq15.jpg" style="height:200px;"><br>
+<img src = "solroq16.jpg" style="height:200px;"><br>
+<img src = "solroq18.jpg" style="height:200px;"><br><br>
+<li>En otra cacerola, pochamos la cebolla picada y añadimos el vino. Subimos el fuego hasta que el vino se evapore.</li><br>
+<img src = "solroq5.jpg" style="height:200px;"><br>
+<img src = "solroq7.jpg" style="height:200px;"><br>
+<img src = "solroq8.jpg" style="height:200px;"><br><br>
+<li>Añadimos la nata y cuando eche espuma incorporamos el roquefort hasta que se funda.</li><br>
+<img src = "solroq10.jpg" style="height:200px;"><br>
+<img src = "solroq11.jpg" style="height:200px;"><br><br>
+<li>Trituramos la salsa con la batidora de mano para que no queden tropezones. Mezclamos con el solomillo en una fuente y listo! </li><br>
+<img src = "solroq19.jpg" style="height:200px;"><br>
+<img src = "solroq20.jpg" style="height:200px;"><br><br>
+<li>A mí me gusta acompañarlo de arroz blanco o con pan para mojar la salsa.</li><br>
+</ul>
+  </div>
+
+
+</div>
+
+<div class="footer">
+  
+</div>
+
+</body>
+</html>
