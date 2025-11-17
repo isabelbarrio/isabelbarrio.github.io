@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  padding: 20px;
+  text-align: center;
+  background: Brown;
+  color: white;
+}
+
+/* Increase the font size of the h1 element */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #2b2b2b;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 30%;
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  flex: 50%;
+  background-color: white;
+  padding: 20px;
+  text-align: left;
+  display: block; /* add this */
+  align-items: center; /* add this */
+  justify-content: center; /* add this */
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+.btn {
+  background-color: #ffb81c; 
+  border: none;
+  border-radius: 8px;
+  transition-duration: 0.4s;
+  color: black;
+  width: 250px;
+  cursor: pointer;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.btn:hover {
+  color: white;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width:100%;
+  }
+}
+</style>
+</head>
+<body>
+
+
+<div class="header">
+  <h1>Arroz blanco como lo hace mi madre</h1>
+</div>
+
+<div class="navbar">
+  <a href="../../index.html">My personal website</a>
+  <a href="../../recipes.html">Back to list of recipes</a>
+</div>
+
+<div class="row">
+  <div class="side">
+<b>Ingredients:</b><br><br>
+Aceite de oliva virgen extra.<br>
+Arroz bomba. 1 cazo por persona. <br>
+Agua.<br>
+1 cucharada de mantequilla.<br>
+Sal.<br><br><br>
+
+
+<b>Instrumentos:</b><br><br>
+Sartén.<br><br><br>
+
+
+
+  </div>
+  <div class="main">
+<ul style="list-style-type:square">
+<li>Ponemos el aceite en la sartén a fuego medio. Metemos el arroz y lo dejamos en el aceite unos 3-5 minutos, sin que se tueste. </li><br>
+<img src = "arroz1.jpg" style="height:200px;"><br><br>
+<img src = "arroz2.jpg" style="height:200px;"><br><br>
+<img src = "arroz3.jpg" style="height:200px;"><br><br>
+<img src = "arroz4.jpg" style="height:200px;"><br><br>
+<li>Echamos 2,5 cazos de agua por cada cazo de arroz y echamos sal. Vigilamos mientras se cocina y vamos probando, es posible que necesitemos más agua. </li> <br><br>
+<img src = "arroz5.jpg" style="height:200px;"><br><br>
+<img src = "arroz6.jpg" style="height:200px;"><br><br>
+<img src = "arroz7.jpg" style="height:200px;"><br><br>
+<li>Cuando el agua esté casi totalmente absorbida y el arroz a buen punto, ponemos la mantequilla por encima.</li><br>
+<img src = "arroz8.jpg" style="height:200px;"><br><br>
+<img src = "arroz9.jpg" style="height:200px;"><br><br>
+<li>Listo para comer. Este arroz es perfecto para acompañar platos con salsa o simplemente comer a la cubana o con tomate frito.</li><br>
+</ul>
+  </div>
+
+
+</div>
+
+<div class="footer">
+  
+</div>
+
+</body>
+</html>
