@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  padding: 20px;
+  text-align: center;
+  background: Brown;
+  color: white;
+}
+
+/* Increase the font size of the h1 element */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #2b2b2b;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 30%;
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  flex: 50%;
+  background-color: white;
+  padding: 20px;
+  text-align: left;
+  display: block; /* add this */
+  align-items: center; /* add this */
+  justify-content: center; /* add this */
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+.btn {
+  background-color: #ffb81c; 
+  border: none;
+  border-radius: 8px;
+  transition-duration: 0.4s;
+  color: black;
+  width: 250px;
+  cursor: pointer;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.btn:hover {
+  color: white;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width:100%;
+  }
+}
+</style>
+</head>
+<body>
+
+
+<div class="header">
+  <h1>Sopa de ajo de Carmen </h1>
+</div>
+
+<div class="navbar">
+  <a href="../../index.html">My personal website</a>
+  <a href="../../recipes.html">Back to list of recipes</a>
+</div>
+
+<div class="row">
+  <div class="side">
+<b>Ingredients:</b><br><br>
+Aceite de oliva virgen extra.<br>
+Pan duro del día anterior. <br>
+Agua.<br>
+Sal.<br>
+2 dientes de ajo grandes picaditos.<br>
+Jamón ibérico (3 lonchas, cortado en trozos).<br>
+Pimentón dulce.<br>
+1 cubito de caldo de pollo.<br>
+1 huevo.<br><br><br>
+
+
+<b>Instrumentos:</b><br><br>
+Cazuela.<br>
+Sartén.<br><br><br>
+
+
+
+  </div>
+  <div class="main">
+<ul style="list-style-type:square">
+<li>Cortar pan del día de ayer, que esté duro pero no demasiado, en rebanaditas. </li><br>
+<img src = "sopaajo2.jpg" style="height:200px;"><br><br>
+<li>Poner aceite en la sartén. Que cubra el fondo y un poquito más. Lo ponemos a fuego medio. </li> <br><br>
+<img src = "sopaajo1.jpg" style="height:200px;"><br><br>
+<li>Echamos el ajo. Cuando esté un poco doradito lo retiramos del fuego. Esperamos a que se enfríe el aceite un poco y entonces echamos un puñado de pimentón dulce.</li><br>
+<img src = "sopaajo3.jpg" style="height:200px;"><br><br>
+<li>Lo echamos todo en la olla a fuego medio. Rehogamos el pan con el ajo y aceite, que se quede mojadito. Cuando el pan ha absorbido todo, echamos un poco de agua y el caldo. Echamos poco a poco y vamos viendo el espesor. </li><br>
+<img src = "sopaajo4.jpg" style="height:200px;"><br><br>
+<img src = "sopaajo5.jpg" style="height:200px;"><br><br>
+<img src = "sopaajo6.jpg" style="height:200px;"><br><br>
+<img src = "sopaajo7.jpg" style="height:200px;"><br><br>
+<li>Lo seguimos cocinando a fuego medio hasta obtener la consistencia deseada. Añadimos el jamón cortado en trozos. Por último, añadimos un huevo batido para adquirir la consistencia deseada. Rectificamos con sal si es necesario, dado que ya lleva jamón y caldo. </li><br>
+<img src = "sopaajo8.jpg" style="height:200px;"><br><br>
+<img src = "sopaajo9.jpg" style="height:200px;"><br><br>
+<img src = "sopaajo10.jpg" style="height:200px;"><br><br>
+<img src = "sopaajo11.jpg" style="height:200px;"><br><br>
+</ul>
+  </div>
+
+
+</div>
+
+<div class="footer">
+  
+</div>
+
+</body>
+</html>
