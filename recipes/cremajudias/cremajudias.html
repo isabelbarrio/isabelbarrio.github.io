@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  padding: 20px;
+  text-align: center;
+  background: Brown;
+  color: white;
+}
+
+/* Increase the font size of the h1 element */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #2b2b2b;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 30%;
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  flex: 50%;
+  background-color: white;
+  padding: 20px;
+  text-align: left;
+  display: block; /* add this */
+  align-items: center; /* add this */
+  justify-content: center; /* add this */
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+.btn {
+  background-color: #ffb81c; 
+  border: none;
+  border-radius: 8px;
+  transition-duration: 0.4s;
+  color: black;
+  width: 250px;
+  cursor: pointer;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.btn:hover {
+  color: white;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width:100%;
+  }
+}
+</style>
+</head>
+<body>
+
+
+<div class="header">
+  <h1>Crema de peladuras de judías verdes de mi madre</h1>
+</div>
+
+<div class="navbar">
+  <a href="../../index.html">My personal website</a>
+  <a href="../../recipes.html">Back to list of recipes</a>
+</div>
+
+<div class="row">
+  <div class="side">
+<b>Ingredients:</b><br><br>
+Peladuras de 750g de judías verdes.<br>
+4 patatas pequeñas.<br>
+200ml de nata para cocinar. <br>
+Agua.<br>
+Sal.<br><br><br>
+
+
+<b>Instrumentos:</b><br><br>
+Olla exprés.<br>
+Batidora de mano.<br>
+Colador.<br>
+Pelador.<br><br><br>
+
+
+
+  </div>
+  <div class="main">
+<ul style="list-style-type:square">
+<li>Lavamos, pelamos y cortamos en trozos las patatas. </li><br>
+<img src = "cremajudias1.jpeg" style="height:200px;">
+<img src = "cremajudias2.jpeg" style="height:200px;"><br><br>
+<li>Meter las peladuras de judía y las patatas en la olla exprés, cubrir con agua, y echar dos puñados de sal. </li> <br><br>
+<img src = "cremajudias3.jpeg" style="height:200px;">
+<img src = "cremajudias4.jpeg" style="height:200px;">
+<img src = "cremajudias5.jpeg" style="height:200px;"><br><br>
+<li>Ponemos a fuego alto en la olla exprés hasta que salga humo. Después, bajamos a fuego bajo y lo dejamos 15 minutos. </li><br>
+<img src = "cremajudias6.jpeg" style="height:200px;"><br><br>
+<li>Enfriamos la olla hasta que se baje el pitorro, la abrimos, y colamos todo el agua. </li><br>
+<img src = "cremajudias7.jpeg" style="height:200px;">
+<img src = "cremajudias8.jpeg" style="height:200px;"><br><br>
+<li>Trituramos con una batidore. Se quedará una pasta espesa. Vamos echando la nata poco a poco hasta que quede el espesor que queramos, no tiene que ser muy líquida. Rectificamos la sal si es necesario. </li><br>
+<img src = "cremajudias9.jpeg" style="height:200px;">
+<img src = "cremajudias10.jpeg" style="height:200px;"><br><br>
+<li>Servimos caliente. </li><br>
+<img src = "cremajudias11.jpeg" style="height:200px;"><br><br>
+</ul>
+  </div>
+
+
+</div>
+
+<div class="footer">
+  
+</div>
+
+</body>
+</html>
