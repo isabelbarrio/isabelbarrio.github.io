@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  padding: 20px;
+  text-align: center;
+  background: Brown;
+  color: white;
+}
+
+/* Increase the font size of the h1 element */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #2b2b2b;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 30%;
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  flex: 50%;
+  background-color: white;
+  padding: 20px;
+  text-align: left;
+  display: block; /* add this */
+  align-items: center; /* add this */
+  justify-content: center; /* add this */
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+.btn {
+  background-color: #ffb81c; 
+  border: none;
+  border-radius: 8px;
+  transition-duration: 0.4s;
+  color: black;
+  width: 250px;
+  cursor: pointer;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.btn:hover {
+  color: white;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width:100%;
+  }
+}
+</style>
+</head>
+<body>
+
+
+<div class="header">
+  <h1>Fabada de mi madre</h1>
+</div>
+
+<div class="navbar">
+  <a href="../../index.html">My personal website</a>
+  <a href="../../recipes.html">Back to list of recipes</a>
+</div>
+
+<div class="row">
+  <div class="side">
+<b>Ingredients:</b><br><br>
+1 morcilla asturiana.<br>
+2 chorizos asturianos.<br>
+Un trozo de panceta. <br>
+1 cabeza de ajo sin pelar.<br>
+Azafrán.<br>
+Fabes asturianas.<br>
+Agua.<br>
+Sal.<br><br>
+<img src = "fabadamama1.jpeg" style="height:200px;"><br><br><br>
+
+
+<b>Instrumentos:</b><br><br>
+Olla.<br>
+Olla exprés.<br><br><br>
+
+
+
+  </div>
+  <div class="main">
+<ul style="list-style-type:square">
+<li>Meter las fabes a remojo en agua fría. Ponerlas a fuego alto. Cuando empiecen a hervir, las apagamos y las dejamos ahí en remojo hasta que doblen el tamaño que tenían. </li><br>
+<img src = "fabadamama2.jpeg" style="height:200px;">
+<img src = "fabadamama4.jpeg" style="height:200px;">
+<img src = "fabadamama5.jpeg" style="height:200px;">
+<img src = "fabadamama6.jpeg" style="height:200px;">
+<img src = "fabadamama7.jpeg" style="height:200px;"><br><br>
+<li>Colamos las fabes y las ponemos en la olla exprés. Añadimos el resto de ingredientes, echamos agua fría y un poquito de azafrán y un poquito de sal. Cerramos la tapa y ponemos a fuego alto. </li> <br><br>
+<img src = "fabadamama8.jpeg" style="height:200px;">
+<img src = "fabadamama9.jpeg" style="height:200px;">
+<img src = "fabadamama10.jpeg" style="height:200px;">
+<img src = "fabadamama11.jpeg" style="height:200px;"><br><br>
+<li>Cuando salga el vapor, ponemos a fuego bajo 25min. Sacamos y servimos. </li><br>
+<img src = "fabadamama12.jpeg" style="height:200px;"><br><br>
+</ul>
+  </div>
+
+
+</div>
+
+<div class="footer">
+  
+</div>
+
+</body>
+</html>
