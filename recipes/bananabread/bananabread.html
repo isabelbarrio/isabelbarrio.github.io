@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  padding: 20px;
+  text-align: center;
+  background: Brown;
+  color: white;
+}
+
+/* Increase the font size of the h1 element */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #2b2b2b;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 30%;
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  flex: 50%;
+  background-color: white;
+  padding: 20px;
+  text-align: left;
+  display: block; /* add this */
+  align-items: center; /* add this */
+  justify-content: center; /* add this */
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+.btn {
+  background-color: #ffb81c; 
+  border: none;
+  border-radius: 8px;
+  transition-duration: 0.4s;
+  color: black;
+  width: 250px;
+  cursor: pointer;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.btn:hover {
+  color: white;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width:100%;
+  }
+}
+</style>
+</head>
+<body>
+
+
+<div class="header">
+  <h1>Linda´s banana bread</h1>
+</div>
+
+<div class="navbar">
+  <a href="../../index.html">My personal website</a>
+  <a href="../../recipes.html">Back to list of recipes</a>
+</div>
+
+<div class="row">
+  <div class="side">
+<b>Ingredients:</b><br><br>
+1/3 cup of butter, plus a little more for the pan.<br>
+3 ripe bananas.<br>
+A pinch of salt. <br>
+1/2 tsp of baking soda. <br>
+3/4 cup of sugar.<br>
+1 tsp of vanilla extract.<br>
+1 egg.<br>
+1.5 cups of flour.<br>
+1.5 handfulls of chocolate chips.<br>
+1.5 handfulls of crushed walnuts.<br><br><br>
+
+
+<b>Instruments:</b><br><br>
+8x4 baking loaf pan.<br>
+Microwave.<br>
+Large mixing bowl.<br>
+Silicone baking spatula.<br><br><br>
+
+
+
+  </div>
+  <div class="main">
+<ul style="list-style-type:square">
+<li>Put the 1/3 cup of butter in a bowl and pelt in the microwave.</li><br>
+<img src = "bananabread1.jpeg" style="height:200px;"><br><br>
+<li>In the mixing bowl, mash the bananas and add the melted butter. The bananas can be left a little chunky for consistency.</li><br>
+<img src = "bananabread3.jpeg" style="height:200px;">
+<img src = "bananabread4.jpeg" style="height:200px;"><br><br>
+<li>Add the salt, baking soda, sugar, vanilla extract. Mix as we add each of the ingredients.</li><br>
+<img src = "bananabread5.jpeg" style="height:200px;">
+<img src = "bananabread6.jpeg" style="height:200px;">
+<img src = "bananabread7.jpeg" style="height:200px;">
+<img src = "bananabread8.jpeg" style="height:200px;"><br><br>
+<li>Add the egg and lightly beat it in the mix.</li><br>
+<img src = "bananabread9.jpeg" style="height:200px;"><br><br>
+<li>Add the flour. mix well. Use the silicone spatula to unstick the flour from the sides of the bowl.</li><br>
+<img src = "bananabread10.jpeg" style="height:200px;"><br><br>
+<li>Add the chocolate chips and the crushed walnuts and mix well.</li><br>
+<img src = "bananabread11.jpeg" style="height:200px;"><br><br>
+<li>Use a little bit more of melted butter to spread on the loaf pan so that the dough doesn't stick. Pour the mix in there and bake at 350 degrees Fahrenheit for 1h.</li><br>
+<img src = "bananabread12.jpeg" style="height:200px;"><br><br>
+<li>Take ou of the oven and make sure it's cooked by sticking a fork through it. If it comes out clean, it's ready.</li><br>
+<img src = "bananabread15.jpeg" style="height:200px;"><br><br>
+<li>Take out of the pan and enjoy!.</li><br>
+<img src = "bananabread14.jpeg" style="height:200px;"><br><br>
+</ul>
+  </div>
+
+
+</div>
+
+<div class="footer">
+  
+</div>
+
+</body>
+</html>
