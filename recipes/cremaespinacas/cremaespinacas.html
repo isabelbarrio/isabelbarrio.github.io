@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  padding: 20px;
+  text-align: center;
+  background: Brown;
+  color: white;
+}
+
+/* Increase the font size of the h1 element */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #2b2b2b;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 30%;
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  flex: 50%;
+  background-color: white;
+  padding: 20px;
+  text-align: left;
+  display: block; /* add this */
+  align-items: center; /* add this */
+  justify-content: center; /* add this */
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+.btn {
+  background-color: #ffb81c; 
+  border: none;
+  border-radius: 8px;
+  transition-duration: 0.4s;
+  color: black;
+  width: 250px;
+  cursor: pointer;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.btn:hover {
+  color: white;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width:100%;
+  }
+}
+</style>
+</head>
+<body>
+
+
+<div class="header">
+  <h1>Crema de espinacas</h1>
+</div>
+
+<div class="navbar">
+  <a href="../../index.html">My personal website</a>
+  <a href="../../recipes.html">Back to list of recipes</a>
+</div>
+
+<div class="row">
+  <div class="side">
+<b>Ingredientes:</b><br><br>
+900g de espinacas.<br>
+1 huevo duro por comensal.<br>
+25g de mantequilla.<br>
+2 cucharadas de aceite de oliva virgen extra.<br>
+1 cucharada de harina.<br>
+Leche.<br>
+<a href="https://isabelbarrio.github.io/recipes/picatostes/picatostes.html">Picatostes caseros</a>.<br>
+Sal.<br><br><br>
+
+
+<b>Instrumentos:</b><br><br>
+Olla.<br>
+Colador.<br>
+Batidora de mano.<br><br><br>
+
+
+
+  </div>
+  <div class="main">
+<ul style="list-style-type:square">
+<li>Lavamos las espinacas. </li><br>
+<img src = "cremaespinacas21.jpeg" style="height:200px;"><br><br>
+<li>En una olla, hervir agua y echar las espinacas para cocerlas.</li> <br><br>
+<img src = "cremaespinacas20.jpeg" style="height:200px;">
+<img src = "cremaespinacas19.jpeg" style="height:200px;">
+<img src = "cremaespinacas16.jpeg" style="height:200px;"><br><br>
+<li>Escurrimos las espinacas y las cortamos muy fino.</li><br>
+<img src = "cremaespinacas15.jpeg" style="height:200px;">
+<img src = "cremaespinacas12.jpeg" style="height:200px;">
+<img src = "cremaespinacas11.jpeg" style="height:200px;"><br><br>
+<li>Hacemos la bechamel: En una sart'en, ponemos a derretir la mantequilla con el aceite. A;adimos la harina, damos unas vueltas hasta que se forme una masa, y vamos incorporando poco a poco la leche y removiendo hasta que se quede la consistencia que queramos y no tenga grumos. Salamos ligeramente. </li> <br><br>
+<img src = "cremaespinacas10.jpeg" style="height:200px;">
+<img src = "cremaespinacas9.jpeg" style="height:200px;"><br><br>
+<li>Vamos añadiendo las espinacas en la bechamel poco a poco y removemos muy bien. </li> <br><br>
+<img src = "cremaespinacas8.jpeg" style="height:200px;">
+<img src = "cremaespinacas7.jpeg" style="height:200px;"><br><br>
+<li>Batimos con la batidora de mano y añadimos leche si es necesario, dependiendo de la consistencia que queramos. Rectificamos de sal. </li> <br><br>
+<img src = "cremaespinacas5.jpeg" style="height:200px;">
+<img src = "cremaespinacas4.jpeg" style="height:200px;">
+<img src = "cremaespinacas3.jpeg" style="height:200px;"><br><br>
+<li>Servimos con los picatostes y el huevo duro. </li> <br><br>
+<img src = "cremaespinacas1.jpeg" style="height:200px;"><br><br>
+</ul>
+  </div>
+
+
+</div>
+
+<div class="footer">
+  
+</div>
+
+</body>
+</html>
