@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  padding: 20px;
+  text-align: center;
+  background: Brown;
+  color: white;
+}
+
+/* Increase the font size of the h1 element */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #2b2b2b;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 30%;
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  flex: 50%;
+  background-color: white;
+  padding: 20px;
+  text-align: left;
+  display: block; /* add this */
+  align-items: center; /* add this */
+  justify-content: center; /* add this */
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+.btn {
+  background-color: #ffb81c; 
+  border: none;
+  border-radius: 8px;
+  transition-duration: 0.4s;
+  color: black;
+  width: 250px;
+  cursor: pointer;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.btn:hover {
+  color: white;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width:100%;
+  }
+}
+</style>
+</head>
+<body>
+
+
+<div class="header">
+  <h1>Arroz negro</h1>
+</div>
+
+<div class="navbar">
+  <a href="../../index.html">My personal website</a>
+  <a href="../../recipes.html">Back to list of recipes</a>
+</div>
+
+<div class="row">
+  <div class="side">
+<b>Ingredientes:</b><br><br>
+300g de arroz bomba.<br>
+1 sepia.<br>
+250g de gambas. <br>
+100g de cebolla. <br>
+2 tomates.<br>
+2 dientes de ajo.<br>
+50g de pimiento verde italiano.<br>
+Caldo de pescado o fumet.<br>
+100ml de vino blanco.<br>
+3 sobres de tinta de sepia o calamar.<br>
+Aceite de oliva virgen extra.<br>
+Sal.<br><br><br>
+
+
+<b>Instrumentos:</b><br><br>
+Paellera.<br><br><br>
+
+
+<a href="https://recetas-italianas.ricetta.it/risotto-de-albahaca">Receta original</a><br><br>
+
+
+  </div>
+  <div class="main">
+<ul style="list-style-type:square">
+<li>Picamos el ajo, pimiento, tomate y cebolla en trozos muy finos. Pelamos las gambas y limpiamos y cortamos en trozos pequeños la sepia. </li><br>
+<img src = "arroznegro8.jpeg" style="height:200px;"><br><br>
+<li>Con las cabezas de las gambas, preparamos un fumet con el que vamos a cocinar el arroz. </li> <br><br>
+<li>En la paellera, echamos un chorro de aceite de oliva y salteamos la sepia 5 minutos.</li><br>
+<img src = "arroznegro7.jpeg" style="height:200px;"><br><br>
+<li>En la paellera, echamos un chorro de aceite de oliva y salteamos la sepia 5 minutos. Después, añadimos le cebolla y el pimiento verde, removemos y dejamos que se sofrían otros 5 minutos. </li><br>
+<img src = "arroznegro6.jpeg" style="height:200px;"><br><br>
+<li>Añadimos el ajo y las gambas, rehogamos unos minutos e introducimos el tomate. Salamos ligeramente y cocinamos todo 5 minutos. </li><br>
+<img src = "arroznegro5.jpeg" style="height:200px;">
+<img src = "arroznegro4.jpeg" style="height:200px;"><br><br>
+<li>Retiramos las gambas y reservamos. </li><br>
+<li>Diluimos la tinta en un vaso con 2 cucharadas de agua caliente y lo añadimos a la paellera. Incorporamos el arroz y sofreimos durante 5 minutos sin parar de remover. Añadimos el vino blanco y dejamos que se evapore.</li><br>
+<img src = "arroznegro3.jpeg" style="height:200px;"><br><br>
+<li>Cubrimos el arroz con la mitad del caldo y cocinamos a fuego alto durante 10 minutos. Añadimos el resto del caldo, bajamos el fuego, y cocinamos a fuego medio otros 7 minutos.</li><br>
+<img src = "arroznegro2.jpeg" style="height:200px;"><br><br>
+<li>Cuando falten 2 minutos, añadimos las gambas y subimos el fuego para que se termine de evaporar el caldo. Antes de servir, dejamos reposar 5 minutos cubriendo con un paño limpio.</li><br>
+<img src = "arroznegro1.jpeg" style="height:200px;"><br><br>
+</ul>
+  </div>
+
+
+</div>
+
+<div class="footer">
+  
+</div>
+
+</body>
+</html>
