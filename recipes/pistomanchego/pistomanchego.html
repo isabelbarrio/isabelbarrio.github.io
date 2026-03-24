@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  padding: 20px;
+  text-align: center;
+  background: Brown;
+  color: white;
+}
+
+/* Increase the font size of the h1 element */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #2b2b2b;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 30%;
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  flex: 50%;
+  background-color: white;
+  padding: 20px;
+  text-align: left;
+  display: block; /* add this */
+  align-items: center; /* add this */
+  justify-content: center; /* add this */
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+.btn {
+  background-color: #ffb81c; 
+  border: none;
+  border-radius: 8px;
+  transition-duration: 0.4s;
+  color: black;
+  width: 250px;
+  cursor: pointer;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.btn:hover {
+  color: white;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width:100%;
+  }
+}
+</style>
+</head>
+<body>
+
+
+<div class="header">
+  <h1>Pisto manchego</h1>
+</div>
+
+<div class="navbar">
+  <a href="../../index.html">My personal website</a>
+  <a href="../../recipes.html">Back to list of recipes</a>
+</div>
+
+<div class="row">
+  <div class="side">
+<b>Ingredientes:</b><br><br>
+750g de tomate (a mí me gusta con tomates cherry).<br>
+250g de cebolla.<br>
+200g de pimiento verde. <br>
+200g de pimiento rojo. <br>
+300g de calabacín.<br>
+2 dientes de ajo.<br>
+Aceite de oliva virgen extra.<br>
+Sal.<br><br><br>
+
+<b>Instrumentos:</b><br><br>
+Batidora de mano.<br>
+Olla.<br>
+Sartén.<br><br><br>
+
+
+
+
+  </div>
+  <div class="main">
+<ul style="list-style-type:square">
+<li>Preparamos los tomates. Ponemos agua a hervir. Mientras hierve, hacemos un corte en el culo de los tomates como una X. Cuando el agua hierva, metemos los tomates inos 15 segundos. Los sacamos y metemos en un cuenco de agua con hielo. Los pelamos y trituramos con una batidora de mano. </li><br>
+<img src = "pistomanchego1.jpg" style="height:200px;">
+<img src = "pistomanchego2.jpg" style="height:200px;">
+<img src = "pistomanchego3.jpg" style="height:200px;">
+<img src = "pistomanchego4.jpg" style="height:200px;">
+<img src = "pistomanchego5.jpg" style="height:200px;">
+<img src = "pistomanchego6.jpg" style="height:200px;">
+<img src = "pistomanchego7.jpg" style="height:200px;"><br><br>
+<li>Pelamos y picamos el ajo y la cebolla. En una cazuela, calentamos algo menos del fondo de aceite de oliva (en las fotos hay demasiado). Pochamos el ajo y la cebolla a fuego bajo 15min con una pizca de sal. </li><br>
+<img src = "pistomanchego8.jpg" style="height:200px;">
+<img src = "pistomanchego11.jpg" style="height:200px;"><br><br>
+<li>Picamos y añadimos el pimiento y pochamos otros 15min. Finalments, añadimos el calabacín y tomate, salamos, tapamos y dejamos pochar durante 70min. Vamos removiendo para que no se pegue y probando.</li><br>
+<img src = "pistomanchego12.jpg" style="height:200px;">
+<img src = "pistomanchego13.jpg" style="height:200px;">
+<img src = "pistomanchego14.jpg" style="height:200px;">
+<img src = "pistomanchego15.jpg" style="height:200px;"><br><br>
+<li>Cuando haya pasado el tiempo, retiramos la tapa, rubimos un poco el fuego, y cocemos 15min o hasta que el tomate haya reducido. </li><br>
+</ul>
+  </div>
+
+
+</div>
+
+<div class="footer">
+  
+</div>
+
+</body>
+</html>
